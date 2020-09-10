@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>External JavaScript</h2>
+
+<p id="demo2">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>(myFunction is stored in an external file called "script2.js")</p>
+
+<button type="button" onclick="document.write(5 + 6)">Try this sum</button>
+
+<button type="button" onclick="window.alert(x)">Try this button</button>
+
+<button type="button" onclick="alert('Hello')">Try this button 2</button>
+
+<p><button onclick="this.innerHTML = Date()">The time is?</button></p>
+
+<p><button onclick="document.getElementById('demo2').innerHTML = Date()">The time is?</button><p>
+
+<p id="demo3"></p>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
+
+
